@@ -2,9 +2,21 @@
 
 Please check releases to download the latest build.
 
-## Bugs:
+### Flash instructions
 
-- Double tap to wake is disabled beacuse it causes touch not to register after wakeup and reboot
+1. Flash LineageOS 16 to Slot A (DO NOT FLASH TWRP AS WELL!)
+2. Switch Slot (now it will show that you're in SLOT A)
+3. Flash SailfishOS
+4. Reboot
+
+### Upgrade instructions:
+
+1. Backup your data somewhere safe.
+2. Flash SailfishOS zip twice/thrice (it is required to bypass installer warnings) when Slot A is active.
+
+### Bugs:
+
+- Double tap to wake is disabled because it causes touch not to register after wakeup and reboot
 
 - To turn on bluetooth you need to enable developer mode and set password for devel-su and then tap on bluetooth button once and finally run "devel-su bluebinder" (it usually does not work on first try and you need to to cancel it with ctrl + c and keep trying again until it works)
 
