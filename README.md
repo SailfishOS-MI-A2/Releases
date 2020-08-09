@@ -20,6 +20,10 @@ Please check [releases](https://github.com/SailfishOS-MI-A2/Releases/releases) t
 
 ### Bugs:
 
+- To turn on bluetooth you need to enable developer mode and set password for devel-su and then tap on bluetooth button once and finally run "devel-su bluebinder" (it usually does not work on first try and you need to to cancel it with ctrl + c and keep trying again until it works)
+
+- Video recording breaks camera and user is forced to reboot if they want to use camera again.
+
 - Double tap to wake causes touch not to register after wakeup and reboot so it is disabled by default in source
 
 - Some codecs don't work i.e. some telegram videos don't work at all (change made, yet to be tested)
@@ -32,3 +36,5 @@ Others:
 
 
 ### PS. I need help to fix the above mentioned issues.
+
+[Want to help or need support?](https://t.me/shoukolab)
